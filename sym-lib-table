@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Kitty") (type "KiCad") (uri "/home/sarah/Documents/kicad/symbols/Kitty.kicad_sym") (options "") (descr ""))
+)

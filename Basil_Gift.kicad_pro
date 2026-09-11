@@ -260,7 +260,44 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|914400|1727200|d408f196-d6b8-4fdd-bbf1-6836b41123c1|97280363-c66d-45c3-9d2e-88cbed5b88c7|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e",
+        ""
+      ],
+      [
+        "pin_to_pin|914400|1778000|d5d35453-5470-4d64-91bf-cedbb74a8369|c6bf900c-7a60-40b7-9ed9-c9c08afbc08e|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e",
+        ""
+      ],
+      [
+        "pin_to_pin|990600|1092200|95622f5f-e277-41e0-9944-fe95fbffa8d8|82a77b7d-6536-4951-a02b-7859269db784|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e",
+        ""
+      ],
+      [
+        "pin_to_pin|990600|1117600|4fc0c0de-743f-4525-aef8-a87a1f77c33e|3733fce6-00a6-48a4-9d32-7094e5f5b365|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e",
+        ""
+      ],
+      [
+        "pin_to_pin|990600|1143000|30e8a7ed-f556-42f2-aeae-399cc098f35b|e6da27ab-1112-4540-a08e-3c7691fec649|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e",
+        ""
+      ],
+      [
+        "power_pin_not_driven|431800|1016000|1726452f-d9e0-4ea9-898f-2856f0b1dc6f|00000000-0000-0000-0000-000000000000|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|457200|1244600|1bfb507e-472e-4401-8bfc-3300d1366e68|00000000-0000-0000-0000-000000000000|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|457200|1295400|7c2c2c20-b93e-4a56-952b-2a8e7310f9e9|00000000-0000-0000-0000-000000000000|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|990600|914400|36341995-792a-45be-854a-8527a34a0b67|00000000-0000-0000-0000-000000000000|/797c22b7-8985-4528-9ea2-2558b83c682e|/797c22b7-8985-4528-9ea2-2558b83c682e|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -671,6 +708,36 @@
           "label": "CREATOR",
           "name": "CREATOR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -721,7 +788,7 @@
         "uuid": "797c22b7-8985-4528-9ea2-2558b83c682e"
       }
     ],
-    "used_designators": "LS1,U1-3,R1-4,J1-2,SW1,#PWR1-15,C1-8",
+    "used_designators": "L1,#FLG1-2,C1-26,SW1,J1-3,TP1-10,R1-7,U1-6,#PWR1-35,LS1",
     "variants": []
   },
   "sheets": [

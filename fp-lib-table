@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Kitty") (type "KiCad") (uri "/home/sarah/Documents/kicad/footprints/Kitty.pretty") (options "") (descr ""))
+)
